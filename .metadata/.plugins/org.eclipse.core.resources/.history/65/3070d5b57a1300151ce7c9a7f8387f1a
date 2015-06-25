@@ -1,0 +1,22 @@
+package br.com.Caellum.Variáveis3;
+
+public class Exercício2 {
+
+	public static void main(String[] args) {
+		
+		for(int i=1; i<4; i++){
+		
+			int acumulador = 0;
+			acumulador = i;
+			
+			int total = i + acumulador;
+			System.out.println(total);
+			
+		}
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package br.com.Caellum.EstruturaDeDados.Pilha;
+
+import java.util.Stack;
+
+public class Teste {
+
+	public static void main(String[] args) {
+
+		Stack pilha = new Stack();
+		Peca pecaInsere = new Peca();
+
+		pilha.push(pecaInsere);
+
+		if(pilha.isEmpty()){
+			System.out.println("A pilha está vazia.");	
+		}
+		
+		
+
+		Pilha<String> pilha2 = new Pilha<String>();
+		pilha2.insere("Adalberto");
+		pilha2.insere("Maria");
+
+		String maria = pilha2.remove();
+		String adalberto = pilha2.remove();
+
+		System.out.println(maria);
+		System.out.println(adalberto);
+
+
+
+	}
+
+}

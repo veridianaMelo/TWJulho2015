@@ -1,0 +1,26 @@
+package br.com.Caellum.Variáveis3;
+
+public class BalancoTrimestral {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		double gastosJaneiro = 15000;
+		double gastosFevereiro = 23000;
+		double gastosMarco = 17000;
+		
+		double gastosTrimestre = gastosJaneiro + gastosFevereiro + gastosMarco;
+		
+		System.out.println("Dispesa Trimestre : " +  gastosTrimestre);
+		
+		double mediaTrimestre = (gastosJaneiro + gastosFevereiro + gastosMarco)/3;
+		
+		System.out.println(mediaTrimestre);
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Pessoa {
+
+	String nome;
+	int idade;
+	
+	void fazAniversario(){
+		System.out.println("Feliz Aniversário");
+		this.idade += 1;
+		System.out.println(this.idade);
+	}
+}

@@ -1,0 +1,26 @@
+package br.com.Edmodo.ExercicioIII;
+
+public class Funcionario {
+	private String nome;
+	private String departamento;
+	private double salario;
+	private Data dataDeAdmissao;
+	private String rg;
+	
+	void recebeAumento(double valor){
+		this.salario += valor;
+	}
+	
+	double calculaGanhoAtual(){
+		return this.salario * 12;
+	}
+	
+	void mostra(){
+		System.out.println("Nome" + this.nome);
+		System.out.println("Nome" + this.departamento);
+		System.out.println("Nome" + this.salario);
+		System.out.println("Nome" + this.dataDeAdmissao);
+		System.out.println("Nome" + this.rg);
+	}
+
+}

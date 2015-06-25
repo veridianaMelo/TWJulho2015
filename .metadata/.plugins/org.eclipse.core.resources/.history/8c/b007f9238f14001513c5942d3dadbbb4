@@ -1,0 +1,26 @@
+package br.com.Edmodo.ExercicioII;
+
+public class Exercicio1d {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] array = new int[10];
+
+		
+		for(int i = 0; i < 10; i++){
+			int x = 2;			
+			array[0] = 3;
+			array[1] = 4;
+			
+			if(array[i] > 3){
+				array[i] = ((array[i+1] - array[i]) + 2);
+			}
+			
+			System.out.println(array[i]);
+			
+			
+			
+			
+	}
+
+}}

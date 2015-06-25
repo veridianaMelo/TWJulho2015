@@ -1,0 +1,18 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Funcionario {
+
+	String nome;
+	String departamento;
+	double salario;
+	String data;
+	String rg;
+	
+	
+	void recebeAumento(double valor){
+		this.salario = this.salario + valor;
+		
+				
+	}
+	
+}

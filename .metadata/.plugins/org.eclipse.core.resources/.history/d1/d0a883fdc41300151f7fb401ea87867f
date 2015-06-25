@@ -1,0 +1,19 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class TestaAlgunsMetodos {
+
+	public static void main(String[] args) {
+		
+		Conta minhaConta1 = new Conta();
+		
+		minhaConta1.dono = "Dulce";
+		minhaConta1.saldo = 1000;
+		
+		System.out.println(minhaConta1.saldo);
+		
+		minhaConta1.sacar(200);
+		
+
+	}
+
+}

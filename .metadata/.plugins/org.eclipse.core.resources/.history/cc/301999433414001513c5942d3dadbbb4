@@ -1,0 +1,65 @@
+package br.com.Edmodo.ExercicioI;
+
+import java.awt.SystemColor;
+import java.util.Scanner;
+
+public class CaixaCentral {
+	
+	public static void main(String[] args) {
+		
+		System.out.println("CAIXA ELETRONICO MEUBANCO");
+		System.out.println("1 - SACAR");
+		System.out.println("2 - DEPOSITAR");
+		System.out.println("3 - TRANSFERÊNCIA");
+		System.out.println("4 - CONSULTAR NOTAS");
+		System.out.println("5 - VERIFICAR CAIXA");
+		System.out.println("6 - SAIR");
+				
+		System.out.println("Digite a opção dejesada:");
+		
+		
+		Scanner teclado = new Scanner(System.in);
+		int n = teclado.nextInt();
+		
+		int menuEscolha = n;
+		
+		switch (menuEscolha) {
+		case 1:		
+		System.out.println("Sacar");
+		break;
+		case 2:
+		System.out.println("Depositar");
+		break;
+		case 3:
+		System.out.println("Transferência");
+		break;
+		case 4:
+		System.out.println("Consultar Notas");
+		break;
+		case 5:
+		System.out.println("Verificar Caixa");
+		break;
+		case 6:
+		System.out.println("Sair");
+		break;
+		default:
+		
+		System.out.println("Nenhuma das opções!");
+	
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package br.com.Edmodo.ExercicioIII;
+
+public class TestesFuncionario {
+
+	public static void main(String[] args) {
+		
+		 Funcionario f1 = new Funcionario();
+		 f1.nome = "jose";
+		 f1.salario = 1000;
+		 f1.calculaGanhoAtual();
+		 
+		 System.out.println(f1.calculaGanhoAtual());
+		 f1.recebeAumento(23);
+		 System.out.println(f1.salario);
+		 
+		 f1.mostra();
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class TestaFuncionario {
+
+	public static void main(String[] args) {
+		
+		Funcionario func1 = new Funcionario();
+		
+		func1.nome = "Hugo";
+		func1.salario = 100;
+		func1.recebeAumento(50);
+
+		System.out.println("Salário Atual:" + func1.salario);
+		System.out.println("Ganho Anual:" + func1.calculoGanhoAtual());
+		
+		func1.mostra();
+	}
+
+}

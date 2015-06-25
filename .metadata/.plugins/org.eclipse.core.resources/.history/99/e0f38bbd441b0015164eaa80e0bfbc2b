@@ -1,0 +1,24 @@
+package br.com.Edmodo.IntroducaoAProgramacaoI;
+
+import java.util.Scanner;
+
+public class HoraDoExercicio3 {
+
+	public static void main(String[] args) {
+
+
+		for(int i = 0; i < 3; i++){
+			if(i % 2 == 0){
+				int somaPar = 0;
+				somaPar = somaPar + i;
+				System.out.println(somaPar);
+			}else{
+				int somaImpar = 0;
+				somaImpar = somaImpar + i;
+				System.out.println(somaImpar);
+			}
+		}
+
+	}
+
+}

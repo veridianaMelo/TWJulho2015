@@ -1,0 +1,26 @@
+package br.com.Edmodo.IntroducaoAProgramacaoI;
+
+import java.util.Scanner;
+
+public class HoraDoExercicio7 {
+
+	public static void main(String[] args) {
+		
+		Calculadora numero = new Calculadora();
+		
+		System.out.println("Digite um número");
+		Scanner teclado = new Scanner(System.in);
+		
+		int n = teclado.nextInt();
+		
+		numero.dividir(4, 5);
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

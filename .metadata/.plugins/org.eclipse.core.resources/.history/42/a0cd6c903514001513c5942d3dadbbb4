@@ -1,0 +1,35 @@
+package br.com.Edmodo.ExercicioI;
+
+import br.com.Caellum.OrientacaoObjetos.Conta;
+
+public class AjudaBanqueiro {
+
+	double saldo;
+
+
+	boolean saque(double valor){
+		if(this.saldo < valor ){
+			System.out.println("Saldo Insuficiente!");
+			return false;
+		}else{
+			this.saldo -= valor;
+			System.out.println("Saque realizado com sucesso!");
+			return true;
+		}
+	}
+
+	void depositar(double valor){
+		this.saldo = this.saldo + valor;
+	}
+
+	boolean transferir(AjudaBanqueiro destino, double valor){
+		boolean retirou = this.saque(valor);
+		if(retirou == false){
+			return false;
+		}else{
+			destino.depositar(valor);
+			return true;
+		}
+	}
+}
+

@@ -1,0 +1,16 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Casa {
+
+	String Cor;
+	Porta porta1;
+	Porta porta2;
+	Porta porta3;
+	
+	void pinta(String s){
+		this.Cor = s;
+		System.out.println("Cor da Porta" + this.Cor);
+	}
+	
+	
+}

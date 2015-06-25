@@ -1,0 +1,67 @@
+package br.com.Edmodo.ExercicioI;
+
+import br.com.Caellum.OrientacaoObjetos.Conta;
+
+public class AjudaBanqueiro {
+
+	double saldo;
+
+
+	boolean saque(double valor){
+		if(this.saldo < valor ){
+			System.out.println("Saldo Insuficiente!");
+			return false;
+		}else{
+			this.saldo -= valor;
+			return true;
+		}
+	}
+
+	void depositar(double valor){
+		this.saldo = this.saldo + valor;
+
+	}
+
+	void consultarNotas(double valor){
+
+		int qtdNotas;
+
+		if(valor % 5 !=0){
+			System.out.print("SAQUE NÃO PODE SER REALIZADO");
+
+		}
+		if(valor % 5==0){
+			qtdNotas = (int) (valor/5);
+			System.out.print("Qtd Notas: "+qtdNotas +" Valor Sacado :" + valor);
+		}else if(valor % 20 == 0){
+			qtdNotas = (int) (valor/20);
+			System.out.print("Qtd Notas: "+qtdNotas +" Valor Sacado :" + valor);
+
+		}else if(valor % 10 == 0){
+			qtdNotas = (int) (valor/10);
+			System.out.print("Qtd Notas: "+qtdNotas +" Valor Sacado :" + valor);
+
+		}
+		else if(valor %50 == 0){
+			qtdNotas = (int) (valor/50);
+			System.out.print("Qtd Notas: "+qtdNotas +" Valor Sacado :" + valor);
+
+		}else if(valor % 100 == 0){
+			qtdNotas = (int) (valor / 100);
+			System.out.print("Qtd Notas: "+qtdNotas +" Valor Sacado :" + valor);
+
+		}}
+
+	boolean transferir(AjudaBanqueiro destino, double valor){
+		boolean retirou = this.saque(valor);
+		if(retirou == false){
+			System.out.println("Transferência Abortada!!!");
+			return false;
+		}else{
+			destino.depositar(valor);
+			System.out.println("Transferência realizada com sucesso");
+			return true;
+		}
+	}
+}
+

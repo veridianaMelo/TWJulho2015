@@ -1,0 +1,38 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class TestaReferencias {
+
+	public static void main(String[] args) {
+
+		Conta c1 = new Conta();
+		c1.deposita(234);
+
+		Conta c2 = c1;
+
+		//c2.deposita(333);
+
+		System.out.println(c1.saldo);
+		System.out.println(c2.saldo);
+
+		Conta c3 = new Conta();
+		
+		c3.saldo = 227;
+
+		Conta c4 = new Conta();
+				c4.saldo = 227;
+
+		if (c3==c4){
+			System.out.println("Contas iguais.");
+		}else{
+			System.out.println("Contas diferentes.");
+			
+		}
+		
+		c3.transfere(c4, 2);
+		
+		
+		
+		
+	}
+
+}

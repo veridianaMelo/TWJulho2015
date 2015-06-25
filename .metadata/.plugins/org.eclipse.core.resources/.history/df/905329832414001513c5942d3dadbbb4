@@ -1,0 +1,30 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Funcionario {
+
+	String nome;
+	String departamento;
+	double salario;
+	Data dataDeEntrada;
+	String rg;
+	
+	
+	public void recebeAumento(double valor){
+		this.salario = this.salario + valor;
+		
+	}
+	
+	double calculoGanhoAtual(){
+		return this.salario * 12;
+		
+	}
+	
+	void mostra(){
+		System.out.println("Nome Funcionário:" + this.nome);
+		System.out.println("Departamento:" + this.departamento);
+		System.out.println("Salário:" + this.salario);
+		System.out.println("Admissão" + this.data);
+		System.out.println("RG" + this.rg);
+	}
+	
+}

@@ -1,0 +1,24 @@
+package br.com.Caellum.EstruturaDeDados.Pilha;
+
+public class Pilha {
+
+
+	public void insere(Peca peca){
+
+	}	
+
+	public Peca remove () {
+		return null;
+
+	}
+
+	public boolean vazia(){
+		return false;
+
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

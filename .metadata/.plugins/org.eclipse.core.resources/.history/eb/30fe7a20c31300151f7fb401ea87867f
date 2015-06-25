@@ -1,0 +1,14 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Programa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Conta minhaConta = new Conta();
+		
+		minhaConta.dono = "Duke";
+	}
+
+}

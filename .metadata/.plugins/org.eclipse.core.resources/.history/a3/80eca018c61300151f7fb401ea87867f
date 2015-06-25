@@ -1,0 +1,21 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Conta {
+
+
+	int numero;
+	String dono;
+	double saldo;
+	double limite;
+
+	public void sacar(double valor){
+		double novoSaldo = this.saldo - valor;
+		this.saldo = novoSaldo;
+	}
+	
+	public void deposita(double valor){
+		this.saldo +=  valor;
+		
+	}
+
+}

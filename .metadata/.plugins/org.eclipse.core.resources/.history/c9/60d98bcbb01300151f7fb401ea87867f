@@ -1,0 +1,13 @@
+package br.com.Caellum.EstruturaDeDados;
+
+public class Array {
+
+	public static void main(String[] args) {
+		
+		int[] array = new int[10];
+		
+		System.out.println(array);
+
+	}
+
+}

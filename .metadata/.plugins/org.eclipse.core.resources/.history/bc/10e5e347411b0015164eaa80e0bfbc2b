@@ -1,0 +1,23 @@
+package br.com.Edmodo.IntroducaoAProgramacaoI;
+
+import java.util.Scanner;
+
+public class HoraDoExercicio3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for(int i = 0; i < 10; i++){
+			System.out.println("Digite um número:");
+			int n;
+			Scanner ler = new Scanner(System.in);	
+			n = ler.nextInt();
+			if(n % 2 == 0){
+				int total = 0;
+				total = total + n;
+			}
+		}
+
+	}
+
+}

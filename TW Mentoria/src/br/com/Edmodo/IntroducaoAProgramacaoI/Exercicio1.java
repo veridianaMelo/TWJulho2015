@@ -1,0 +1,28 @@
+package br.com.Edmodo.IntroducaoAProgramacaoI;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		int x, y, z;
+
+		x = y = 10;
+		System.out.println("O valor de x é:" + x);
+		System.out.println("O valor de y é:" + y);
+		z = ++x;
+		System.out.println("O valor de z é:" + z);
+		x = -x;
+		System.out.println("Agora o valor de x é :" + x);
+		y++;
+		System.out.println("O valor de y é:" + y);
+		x = x + y - (z--);
+		System.out.println("O valor final  de x é:" + x);
+
+
+
+
+
+
+	}
+
+}

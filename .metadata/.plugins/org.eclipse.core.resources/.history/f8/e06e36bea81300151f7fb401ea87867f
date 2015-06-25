@@ -1,0 +1,23 @@
+package br.com.Caellum.Variáveis3;
+
+import javax.swing.JOptionPane;
+
+public class DesafioFibonacci1 {
+
+	public static void main(String[] args) {
+
+		try{
+			long n = Long.parseLong(JOptionPane.showInputDialog("Insira a quantidade de termos Fibonacci:"));
+			verifica(n);
+			n--;
+			calcula(n);
+		}catch(NumberFormatException)
+
+	}
+
+	private static void verifica(long n) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

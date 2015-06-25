@@ -1,0 +1,46 @@
+package br.com.Caellum.EstruturaDeDados;
+
+import java.util.Arrays;
+
+public class Vetor {
+
+	private Aluno[] aluno = new Aluno[100];
+
+	public void adiciona(Aluno aluno){
+		for(int i=0; i < this.aluno.length; i++){
+			if(this.aluno[i] == null){
+				this.aluno[i] = aluno;
+			}
+
+		}
+	}	
+	public void adiciona(int posicao, Aluno aluno){
+
+
+	}
+
+	public Aluno pega (int posicao){
+		return null;
+
+	}
+
+	public void remove(int posicao){
+
+	}
+
+	public boolean contem(Aluno aluno){
+		return false;
+
+	}
+
+	public int tamanho(){
+		return 0;
+
+	}
+	public String toString(){
+		return Arrays.toString(aluno);
+
+	}
+
+
+}

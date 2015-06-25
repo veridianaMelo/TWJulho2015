@@ -1,0 +1,10 @@
+package br.com.Edmodo.ExercicioIII;
+
+public class Funcionario {
+	String nome;
+	String departamento;
+	double salario;
+	String dataDeAdmissao;
+	String rg;
+
+}

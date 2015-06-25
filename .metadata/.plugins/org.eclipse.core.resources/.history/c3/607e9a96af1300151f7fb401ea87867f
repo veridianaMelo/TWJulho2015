@@ -1,0 +1,31 @@
+package br.com.DevMedia.MetodosEClasses;
+
+import java.util.Date;
+
+public class Cliente {
+	public String Nome;
+	public String Email;
+	public String Telefone;
+	private int codigo;
+
+	public void EfetuarVenda(){
+
+	}
+
+	public void CalcularTroco(double valor){
+
+	}
+
+	public Date DataDaVenda(){
+
+		DateTime objData = new DateTime.MinValue;
+
+		return objData.date;	
+
+	}
+
+	public double calcularImposto(double preco){
+		return preco*(1*10);
+	}
+
+}

@@ -1,0 +1,16 @@
+package br.com.Caellum.OrientacaoObjetos;
+
+public class Conta {
+
+
+	int numero;
+	String dono;
+	double saldo;
+	double limite;
+
+	void saca(double quantidade){
+
+	}
+
+
+}

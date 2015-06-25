@@ -1,0 +1,30 @@
+package br.com.Edmodo.IntroducaoAProgramacaoI;
+
+public class HoraDoExercicio6 {
+
+	public static void main(String[] args) {
+
+		int nadador = 1;
+
+		switch(nadador){
+		case 1:
+			System.out.println("Infantil A  5 - 7 anos.");
+			break;
+		case 2:
+			System.out.println("Infantil B  8 - 10 anos.");
+			break;
+		case 3:	
+			System.out.println("Juvenil  A  11 - 13 anos.");
+			break;
+		case 4:
+			System.out.println("Juvenil  B  14 - 17 anos.");
+			break;
+		case 5:	
+			System.out.println("Adulto Maiores de 18 anos.");
+			break;
+		default:
+			System.out.println("Valores não válidos.");
+
+		}
+
+	}}
